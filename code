@@ -1,23 +1,16 @@
-#include<iostream>
+// writing a digit of a number in reverse
+#include <iostream>
 using namespace std;
 int main()
 {
-    int a,count=0;
-    cout<<"give the number"<<endl;
+    int a,i;
+    cout<<"give number"<<endl;
     cin>>a;
-    for(int i=1;i<=a;i++)
+    while(a>0)
     {
-        if(a%i==0)
-        {
-            count++;
-        }
-    }
-    if(count++==2)
-    {
-        cout<<"it is a prime number"<<endl;
-    }
-    else{
-        cout<<"it is not prime number"<<endl;
+    i=a%10;
+    a=a/10;
+    cout<<i<<endl;
     }
     return 0;
 }
