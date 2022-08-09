@@ -1,4 +1,4 @@
-// writing a digit of a number in reverse
+// writing a digit of a number in reverse #reverseorder #reverse #c++
 #include <iostream>
 using namespace std;
 int main()
